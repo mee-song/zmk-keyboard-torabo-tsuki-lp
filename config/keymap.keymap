@@ -12,11 +12,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans     &trans    &trans  &trans  &trans                                         &trans                     &trans     &trans          &trans         &trans                &trans
-&trans  &kp Q      &kp W     &kp E   &kp R   &kp T                                          &kp Y                      &kp U      &kp I           &kp O          &kp P                 &trans
-&trans  &kp A      &kp S     &kp D   &kp F   &kp G               &trans       &trans        &kp H                      &kp J      &kp K           &kp L          &kp SEMI              &trans
-&trans  &kp Z      &kp X     &kp C   &kp V   &kp B               &mkp LCLK    &lt 4 ESCAPE  &kp N                      &kp M      &kp COMMA       &kp DOT        &mt RIGHT_SHIFT FSLH  &trans
-&trans  &kp LCTRL  &kp LGUI  &trans  &trans  &mt LEFT_SHIFT DEL  &lt 2 SPACE  &lt 3 ENTER   &mt RIGHT_SHIFT BACKSPACE  &kp LANG2  &kp LANGUAGE_1  &kp RIGHT_ALT  &kp ESC               &trans
+&trans  &trans     &trans    &trans  &trans  &trans                                         &trans           &trans     &trans          &trans         &trans                &trans
+&trans  &kp Q      &kp W     &kp E   &kp R   &kp T                                          &kp Y            &kp U      &kp I           &kp O          &kp P                 &trans
+&trans  &kp A      &kp S     &kp D   &kp F   &kp G               &trans       &trans        &kp H            &kp J      &kp K           &kp L          &kp SEMI              &trans
+&trans  &kp Z      &kp X     &kp C   &kp V   &kp B               &mkp LCLK    &lt 4 ESCAPE  &kp N            &kp M      &kp COMMA       &kp DOT        &mt RIGHT_SHIFT FSLH  &trans
+&trans  &kp LCTRL  &kp LGUI  &trans  &trans  &mt LEFT_SHIFT DEL  &lt 2 SPACE  &lt 3 ENTER   &lt 2 BACKSPACE  &kp LANG2  &kp LANGUAGE_1  &kp RIGHT_ALT  &kp ESC               &trans
             >;
         };
 
@@ -32,11 +32,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans    &trans  &trans    &trans            &trans                       &trans         &trans         &trans                &trans                 &trans           &trans
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp LS(NUMBER_4)  &kp PERCENT                  &kp CARET      &kp AMPS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_ASTERISK  &trans
-&trans  &kp N1    &kp N2  &kp N3    &kp N4            &kp N5       &trans  &trans  &kp MINUS      &kp EQUAL      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON        &trans
-&trans  &kp N6    &kp N7  &kp N8    &kp N9            &kp N0       &trans  &trans  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &trans
-&trans  &trans    &trans  &trans    &trans            &trans       &trans  &trans  &trans         &trans         &trans                &trans                 &trans           &trans
+&trans  &trans     &trans  &trans    &trans            &trans                       &trans         &trans         &trans                &trans                 &trans           &trans
+&trans  &kp CARET  &kp AT  &kp HASH  &kp LS(NUMBER_4)  &kp PERCENT                  &kp EXCL       &kp AMPS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_ASTERISK  &trans
+&trans  &kp N1     &kp N2  &kp N3    &kp N4            &kp N5       &trans  &trans  &kp MINUS      &kp EQUAL      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON        &trans
+&trans  &kp N6     &kp N7  &kp N8    &kp N9            &kp N0       &trans  &trans  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &trans
+&trans  &trans     &trans  &trans    &trans            &trans       &trans  &trans  &trans         &trans         &trans                &trans                 &trans           &trans
             >;
         };
 
