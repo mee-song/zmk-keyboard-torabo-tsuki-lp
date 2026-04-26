@@ -32,21 +32,21 @@
 
         layer_2 {
             bindings = <
-&trans  &trans    &trans  &trans    &trans            &trans                       &trans         &trans         &trans                   &trans                    &trans           &trans
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp LS(NUMBER_4)  &kp PERCENT                  &kp CARET      &kp AMPS       &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS  &kp KP_ASTERISK  &trans
-&trans  &kp N1    &kp N2  &kp N3    &kp N4            &kp N5       &trans  &trans  &kp MINUS      &kp EQUAL      &kp LEFT_BRACE           &kp RIGHT_BRACE           &kp COLON        &trans
-&trans  &kp N6    &kp N7  &kp N8    &kp N9            &kp N0       &trans  &trans  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LEFT_BRACKET         &kp RIGHT_BRACKET         &kp BACKSLASH    &trans
-&trans  &trans    &trans  &trans    &trans            &trans       &trans  &trans  &trans         &trans         &trans                   &trans                    &trans           &trans
+&trans  &trans    &trans  &trans    &trans            &trans                       &trans         &trans         &trans                &trans                 &trans           &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp LS(NUMBER_4)  &kp PERCENT                  &kp CARET      &kp AMPS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_ASTERISK  &trans
+&trans  &kp N1    &kp N2  &kp N3    &kp N4            &kp N5       &trans  &trans  &kp MINUS      &kp EQUAL      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON        &trans
+&trans  &kp N6    &kp N7  &kp N8    &kp N9            &kp N0       &trans  &trans  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &trans
+&trans  &trans    &trans  &trans    &trans            &trans       &trans  &trans  &trans         &trans         &trans                &trans                 &trans           &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans   &trans   &trans  &trans  &trans                      &trans     &trans      &trans    &trans     &trans         &trans
-&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                      &kp GRAVE  &kp HOME    &kp UP    &kp END    &kp PAGE_UP    &trans
-&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans  &trans     &kp TILDE  &kp LEFT    &kp UP    &kp RIGHT  &kp PAGE_DOWN  &trans
-&trans  &kp F11  &kp F12  &trans  &trans  &trans   &trans  &mkp RCLK  &kp GRAVE  &kp TILDE   &kp DOWN  &kp SQT    &kp PIPE       &trans
-&trans  &trans   &trans   &trans  &trans  &trans   &trans  &trans     &trans     &bt BT_NXT  &trans    &trans     &kp TAB        &trans
+&trans  &trans   &trans   &trans  &trans  &trans                         &trans     &trans      &trans    &trans     &trans         &trans
+&trans  &kp F11  &kp F12  &trans  &trans  &trans                         &kp GRAVE  &kp HOME    &kp UP    &kp END    &kp PAGE_UP    &trans
+&trans  &trans   &kp F2   &kp F3  &kp F4  &kp F5   &trans     &trans     &kp TILDE  &kp LEFT    &kp UP    &kp RIGHT  &kp PAGE_DOWN  &trans
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &mkp MCLK  &mkp RCLK  &kp GRAVE  &kp TILDE   &kp DOWN  &kp SQT    &kp PIPE       &trans
+&trans  &trans   &trans   &trans  &trans  &trans   &trans     &trans     &trans     &bt BT_NXT  &trans    &trans     &kp TAB        &trans
             >;
         };
 
