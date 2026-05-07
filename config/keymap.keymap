@@ -16,10 +16,10 @@
             label = "BT_LAYER_MACRO";
         };
 
-        bt_layer2_macro: bt_layer2_macro {
+        bt_layer5_macro: bt_layer2_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 2>, <&macro_wait_time 200>, <&to 5>;
+            bindings = <&bt BT_SEL 4>, <&macro_wait_time 200>, <&to 5>;
 
             label = "BT_LAYER2_MACRO";
         };
