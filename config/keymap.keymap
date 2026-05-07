@@ -7,6 +7,24 @@
 / {
     combos { compatible = "zmk,combos"; };
 
+    macros {
+        bt_layer0_macro: bt_layer_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 0>, <&macro_wait_time 200>, <&to 0>;
+
+            label = "BT_LAYER_MACRO";
+        };
+
+        bt_layer2_macro: bt_layer2_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 2>, <&macro_wait_time 200>, <&to 5>;
+
+            label = "BT_LAYER2_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
