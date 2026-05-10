@@ -118,7 +118,7 @@
 &trans  &trans       &trans            &trans    &trans            &trans                             &trans          &trans        &trans             &trans      &trans           &trans
 &trans  &kp EQUAL    &kp LEFT_BRACKET  &kp HASH  &kp LS(NUMBER_4)  &kp PERCENT                        &kp EXCL        &kp CARET     &kp ASTERISK       &kp LPAR    &kp KP_ASTERISK  &trans
 &trans  &kp N1       &kp N2            &kp N3    &kp N4            &kp N5          &trans     &trans  &kp MINUS       &kp UNDER     &kp RIGHT_BRACE    &kp TILDE2  &kp COLON        &trans
-&trans  &kp N6       &kp N7            &kp N8    &kp N9            &kp N0          &mkp MCLK  &trans  &kp UNDERSCORE  &kp LS(SEMI)  &kp RIGHT_BRACKET  &kp PIPE    &kp SLASH        &trans
+&trans  &kp N6       &kp N7            &kp N8    &kp N9            &kp N0          &mkp MCLK  &trans  &kp JP_UNDERSCORE  &kp LS(SEMI)  &kp RIGHT_BRACKET  &kp PIPE    &kp SLASH        &trans
 &trans  &kp LG(TAB)  &kp LC(TAB)       &trans    &trans            &kp LEFT_SHIFT  &trans     &trans  &trans          &trans        &trans             &trans      &trans           &trans
             >;
         };
